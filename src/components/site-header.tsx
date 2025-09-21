@@ -4,9 +4,6 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
-  SheetTitle,
-  SheetDescription,
-  SheetHeader,
 } from '@/components/ui/sheet';
 import {
   Accordion,
@@ -74,7 +71,7 @@ export function SiteHeader() {
             </SheetTrigger>
             <SheetContent
               side="left"
-              className="w-full bg-background p-10 sm:w-1/2"
+              className="w-full bg-background p-10 sm:max-w-xl"
             >
               <div className="flex h-full">
                 <div className="flex flex-col items-start pr-12">
@@ -155,10 +152,7 @@ export function SiteHeader() {
                     HELLO BEAUTY
                   </h3>
                   <p className="mt-4 text-sm text-muted-foreground">
-                    Welcome to Beauty Aestate, an online guide with a fresh
-                    perspective on natural beauty. Discover new brands, product
-                    reviews and tutorials that celebrate diversity and empower
-                    our readers to embrace their own natural beauty.
+                    A fresh perspective on natural beauty. Discover new brands, reviews, and tutorials to embrace your unique beauty.
                   </p>
                   <div className="mt-6 flex justify-center gap-4">
                     <Link href="#" aria-label="Instagram">
