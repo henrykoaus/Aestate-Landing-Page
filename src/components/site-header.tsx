@@ -4,6 +4,9 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
+  SheetTitle,
+  SheetDescription,
+  SheetHeader,
 } from '@/components/ui/sheet';
 import {
   Accordion,
