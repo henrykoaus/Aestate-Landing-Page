@@ -79,13 +79,13 @@ export function SiteHeader() {
                 <div className="w-1/2 pr-12">
                   <div className="flex items-center justify-end">
                     <SheetClose asChild>
-                      <Button variant="ghost" size="icon" className="mb-8">
+                      <Button variant="ghost" size="icon" className="mb-8 -mr-4">
                         <X className="h-6 w-6" />
                         <span className="sr-only">Close menu</span>
                       </Button>
                     </SheetClose>
                   </div>
-                  <nav className="flex flex-col items-start space-y-4">
+                  <nav className="flex flex-col items-start space-y-2">
                     {navLinks.map((link) =>
                       link.sublinks ? (
                         <Accordion
@@ -98,20 +98,20 @@ export function SiteHeader() {
                             value="categories"
                             className="border-b-0"
                           >
-                            <AccordionTrigger className="py-2 font-headline text-3xl font-normal hover:no-underline">
+                            <AccordionTrigger className="py-2 font-headline text-2xl font-normal hover:no-underline">
                               <div className="flex items-center gap-4">
-                                <Plus className="h-5 w-5" />
+                                <Plus className="h-4 w-4" />
                                 <span>{link.label}</span>
                               </div>
                             </AccordionTrigger>
-                            <AccordionContent className="pl-12">
-                              <ul className="space-y-2">
+                            <AccordionContent className="pl-10">
+                              <ul className="space-y-1">
                                 {link.sublinks.map((sublink) => (
                                   <li key={sublink}>
                                     <SheetClose asChild>
                                       <Link
                                         href="#"
-                                        className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
+                                        className="text-base font-medium text-foreground/80 transition-colors hover:text-foreground"
                                       >
                                         {sublink}
                                       </Link>
@@ -126,7 +126,7 @@ export function SiteHeader() {
                         <SheetClose asChild key={link.label}>
                           <Link
                             href={link.href}
-                            className={`font-headline text-3xl font-normal ${
+                            className={`font-headline text-2xl font-normal ${
                               link.special
                                 ? 'text-accent-foreground'
                                 : 'text-foreground/80'
