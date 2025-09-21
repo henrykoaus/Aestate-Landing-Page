@@ -4,7 +4,6 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
-  SheetTitle,
 } from '@/components/ui/sheet';
 import {
   Accordion,
@@ -72,19 +71,20 @@ export function SiteHeader() {
             </SheetTrigger>
             <SheetContent
               side="left"
-              className="w-full max-w-4xl bg-background p-10"
+              className="w-full bg-background p-10 sm:w-1/2"
             >
-              <SheetTitle className="sr-only">Menu</SheetTitle>
               <div className="flex h-full">
-                <div className="w-1/2 pr-12">
-                  <div className="flex items-center justify-end">
-                    <SheetClose asChild>
-                      <Button variant="ghost" size="icon" className="mb-8 -mr-4">
-                        <X className="h-6 w-6" />
-                        <span className="sr-only">Close menu</span>
-                      </Button>
-                    </SheetClose>
-                  </div>
+                <div className="flex flex-col items-start pr-12">
+                  <SheetClose asChild>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="mb-8 -ml-4"
+                    >
+                      <X className="h-6 w-6" />
+                      <span className="sr-only">Close menu</span>
+                    </Button>
+                  </SheetClose>
                   <nav className="flex flex-col items-start space-y-2">
                     {navLinks.map((link) =>
                       link.sublinks ? (
