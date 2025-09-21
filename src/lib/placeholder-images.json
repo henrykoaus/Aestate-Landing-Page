@@ -2,57 +2,63 @@
   "placeholderImages": [
     {
       "id": "1",
-      "description": "A modern building with a unique architectural design, featuring clean lines and a minimalist aesthetic.",
-      "imageUrl": "https://picsum.photos/seed/aestate1/600/800",
-      "imageHint": "architecture building"
+      "title": "How To Get The Perfect Natural DIY Manicure",
+      "subtitle": "In 10 Easy Steps",
+      "date": "Jun 18, 2018",
+      "category": "SKIN",
+      "description": "A top down view of a pink bowl with rose petals floating in water, surrounded by beauty products.",
+      "imageUrl": "https://picsum.photos/seed/aestate1/500/350",
+      "imageHint": "manicure spa"
     },
     {
       "id": "2",
-      "description": "An interior shot of a stylish living room with contemporary furniture and large windows.",
-      "imageUrl": "https://picsum.photos/seed/aestate2/600/750",
-      "imageHint": "interior design"
+      "title": "How To Wear Dark Lips",
+      "subtitle": "Featuring Our Favourite Natural Lipstick",
+      "date": "Jun 6, 2018",
+      "category": "MAKE UP",
+      "description": "A woman with dark lipstick smiling gently.",
+      "imageUrl": "https://picsum.photos/seed/aestate2/500/600",
+      "imageHint": "woman portrait"
     },
     {
       "id": "3",
-      "description": "A close-up of a textured wall, showing patterns and shadows.",
-      "imageUrl": "https://picsum.photos/seed/aestate3/600/900",
-      "imageHint": "texture abstract"
+      "title": "What Is Prickly Pear",
+      "subtitle": "And How It Can Help Your Skin",
+      "date": "May 30, 2018",
+      "category": "SKIN, INGREDIENT INDEX",
+      "description": "A bottle of prickly pear serum in a bowl of prickly pears.",
+      "imageUrl": "https://picsum.photos/seed/aestate3/500/350",
+      "imageHint": "skincare product"
     },
     {
       "id": "4",
-      "description": "A spiral staircase viewed from above, creating a mesmerizing geometric pattern.",
-      "imageUrl": "https://picsum.photos/seed/aestate4/600/600",
-      "imageHint": "stairs architecture"
+      "title": "A Guide to Natural Deodorants",
+      "subtitle": "And which ones actually work",
+      "date": "Apr 25, 2018",
+      "category": "BODY",
+      "description": "A woman with a clay face mask on.",
+      "imageUrl": "https://picsum.photos/seed/aestate4/500/600",
+      "imageHint": "face mask"
     },
     {
       "id": "5",
-      "description": "A serene landscape with a minimalist building integrated into nature.",
-      "imageUrl": "https://picsum.photos/seed/aestate5/600/850",
-      "imageHint": "minimalist nature"
+      "title": "Our Daily Skincare Routine",
+      "subtitle": "A look into our simple daily routine",
+      "date": "Apr 12, 2018",
+      "category": "SKIN",
+      "description": "A collection of minimalist skincare bottles.",
+      "imageUrl": "https://picsum.photos/seed/aestate5/500/350",
+      "imageHint": "skincare bottles"
     },
     {
       "id": "6",
-      "description": "Abstract shadows falling on a plain surface, creating an artistic composition.",
-      "imageUrl": "https://picsum.photos/seed/aestate6/600/700",
-      "imageHint": "shadows abstract"
-    },
-    {
-      "id": "7",
-      "description": "A person walking through an art gallery with large paintings.",
-      "imageUrl": "https://picsum.photos/seed/aestate7/600/820",
-      "imageHint": "art gallery"
-    },
-    {
-      "id": "8",
-      "description": "A beautifully designed chair in an empty room, highlighting its form.",
-      "imageUrl": "https://picsum.photos/seed/aestate8/600/780",
-      "imageHint": "furniture design"
-    },
-    {
-      "id": "9",
-      "description": "A facade of a building with repeating window patterns.",
-      "imageUrl": "https://picsum.photos/seed/aestate9/600/900",
-      "imageHint": "building facade"
+      "title": "The Best Natural Sunscreens",
+      "subtitle": "Protect your skin the natural way",
+      "date": "Mar 28, 2018",
+      "category": "SUNCARE",
+      "description": "A woman at the beach, with her back to the camera.",
+      "imageUrl": "https://picsum.photos/seed/aestate6/500/600",
+      "imageHint": "beach summer"
     }
   ]
 }

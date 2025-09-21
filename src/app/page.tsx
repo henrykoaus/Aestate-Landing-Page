@@ -1,5 +1,4 @@
 import { PhotoGrid } from '@/components/photo-grid';
-import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 
 export default function Home() {
@@ -9,7 +8,6 @@ export default function Home() {
       <main className="flex-1">
         <PhotoGrid />
       </main>
-      <SiteFooter />
     </div>
   );
 }

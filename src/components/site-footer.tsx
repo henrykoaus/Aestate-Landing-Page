@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Instagram, Facebook } from 'lucide-react';
+import { ArrowRight, Instagram, Facebook, Search, ShoppingBag } from 'lucide-react';
 
 const ThreadsIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -27,31 +27,12 @@ const ThreadsIcon = (props: React.SVGProps<SVGSVGElement>) => (
 export function SiteFooter() {
   return (
     <footer className="border-t bg-background">
-      <div className="container grid grid-cols-1 gap-12 px-4 py-12 md:grid-cols-2 md:gap-16 md:px-6 md:py-16">
-        <div className="flex flex-col items-start gap-4">
-          <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-            Sign up for our newsletter
-          </h2>
-          <p className="max-w-lg text-muted-foreground">
-            Stay up to date with the latest from Aestate. Be the first to know about new collections and exclusive offers.
-          </p>
-          <form className="flex w-full max-w-md space-x-2">
-            <Input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1"
-              aria-label="Email for newsletter"
-            />
-            <Button type="submit" size="icon" aria-label="Subscribe">
-              <ArrowRight className="h-4 w-4" />
-            </Button>
-          </form>
-        </div>
-        <div className="flex flex-col items-start gap-4 md:items-end">
-          <Link href="/" className="text-3xl font-bold font-headline">
-            Aestate
+      <div className="container mx-auto px-4 py-8 md:px-6">
+        <div className="text-center">
+          <Link href="/" className="text-3xl font-bold font-headline tracking-[0.2em]">
+            BEAUTY AESTATE
           </Link>
-          <div className="flex items-center gap-4">
+          <div className="mt-4 flex justify-center gap-4">
             <Link href="#" aria-label="Instagram">
               <Instagram className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground" />
             </Link>
@@ -63,10 +44,15 @@ export function SiteFooter() {
             </Link>
           </div>
         </div>
-      </div>
-      <div className="border-t">
-        <div className="container flex items-center justify-center px-4 py-4 text-sm text-muted-foreground md:px-6">
-          <p>&copy; {new Date().getFullYear()} Aestate. All Rights Reserved.</p>
+        <div className="mt-8 border-t pt-8">
+          <div className="flex flex-col items-center justify-between gap-4 text-sm text-muted-foreground md:flex-row">
+            <div className="flex gap-4">
+              <Link href="#">About</Link>
+              <Link href="#">Contact</Link>
+              <Link href="#">Privacy Policy</Link>
+            </div>
+            <p>&copy; {new Date().getFullYear()} Beauty Aestate. All Rights Reserved.</p>
+          </div>
         </div>
       </div>
     </footer>
