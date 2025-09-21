@@ -4,6 +4,7 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
+  SheetTitle,
 } from '@/components/ui/sheet';
 import {
   Accordion,
@@ -43,6 +44,7 @@ export function SiteHeader() {
               side="left"
               className="w-full max-w-sm bg-background p-10"
             >
+              <SheetTitle className="sr-only">Menu</SheetTitle>
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-end">
                   <SheetClose asChild>
